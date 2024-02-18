@@ -1,0 +1,9 @@
+{
+  "name": "snowballdb-util",
+  "version": "1.0.0",
+  "description": "Front-end parameter integration tool based on SnowballDb (Ruifan Technology)",
+  "main": "/src/snowballDb.js",
+  "keywords": ["utils","snowball","snowballdb"],
+  "author": "chenxq-297",
+  "license": "ISC"
+}
