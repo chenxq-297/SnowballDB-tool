@@ -1,9 +1,27 @@
 {
   "name": "snowballdb-util",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Front-end parameter integration tool based on SnowballDb (Ruifan Technology)",
-  "main": "/src/snowballDb.js",
-  "keywords": ["utils","snowball","snowballdb"],
+  "main": "/src/lib/index.js",
+  "keywords": [
+    "snowball",
+    "snowballdb",
+    "utils",
+    "tool"
+  ],
+  "scripts": {
+    "build": "npx babel src/snowballDb.js --out-file src/lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenxq-297/SnowballDB-tool"
+  },
   "author": "chenxq-297",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "babel-loader": "^9.1.3"
+  }
 }
